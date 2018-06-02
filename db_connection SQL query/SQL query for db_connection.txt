@@ -1,0 +1,7 @@
+CREATE TABLE  `users` (
+`id` INT( 100 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`name` VARCHAR( 40 ) NOT NULL ,
+`username` VARCHAR( 40 ) NOT NULL ,
+`password` VARCHAR( 50 ) NOT NULL,
+`position` VARCHAR( 50 ) NOT NULL
+);
